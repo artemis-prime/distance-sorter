@@ -84,10 +84,12 @@ function sort(from, objectsArray, n = -1) {
     for (let i = 0; i < n; i++) {
         let each = indecesByDistance[i]
         let obj = parallelArrays.usableSet[each.key]
-        obj.distanceMeters = each.distance
-        obj.distanceYards = geolib.convertUnit('yd', each.distance, 2)
-        obj.distanceMiles = geolib.convertUnit('mi', each.distance, 2)
-        obj.distanceKM = geolib.convertUnit('km', each.distance, 2)
+		obj.distance = {
+			m:  each.distance,
+			yd: geolib.convertUnit('yd', each.distance, 2),
+			mi: geolib.convertUnit('mi', each.distance, 2),
+			km: geolib.convertUnit('km', each.distance, 2)
+		};
         result.push(obj)
     }
     return result;
