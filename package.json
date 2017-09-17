@@ -1,0 +1,15 @@
+{
+  "name": "@artemis-prime/distance-sorter",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "artemis-prime",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@artemis-prime/logger": "^1.0.0",
+    "geolib": "^2.0.22"
+  }
+}

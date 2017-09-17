@@ -1,0 +1,69 @@
+[
+	{
+		"name": "woodfin",
+		"loc": {"lat": "35.632635", "long": "-82.581654"}
+	},
+	{
+		"name": "leicester",
+		"location": {"lat": "35.613519", "long": "-82.633066"}
+	},
+	{
+		"name": "waynesville",
+		"loc": {"latitude": "35.544968", "longitude": "-82.658644"}
+	},
+	{
+		"name": "biltmore park",
+		"location": {"latitude": "35.489079", "longitude": "-82.556334"}
+	},
+	{
+		"name": "biltmore estate",
+		"lat": "35.540608", "long": "-82.552299"
+	},
+	{
+		"name": "biltmore village",
+		"latitude": "35.569547", "longitude": "-82.544146"
+	},
+	{
+		"name": "south slope",
+		"location": {"lat": "35.590613", "long": "-82.551141"}
+	},
+	{
+		"name": "patton and clingman",
+		"loc": {"latitude": "35.592637", "longitude": "-82.561011"}
+	},
+	{
+		"name": "river arts",
+		"location": {"latitude": "35.579375", "longitude": "-82.566848"}
+	},
+	{
+		"name": "kenilworth",
+		"location": {"latitude": "35.579096", "longitude": "-82.538095"}
+	},
+	{
+		"name": "downtown",
+		"lat": "35.595359", "long": "-82.551742"
+	},
+	{
+		"name": "west asheville",
+		"latitude": "35.578688", "longitude": "-82.594281"
+	},
+	{
+		"name": "asheville mall",
+		"loc": {"lat": "35.581035", "long": "-82.526293"}
+	},
+	{
+		"name": "swannanoa",
+		"location": {"lat": "35.598919", "long": "-82.399993"}
+	},
+	{
+		"name": "black mountain",
+		"loc": {"latitude": "35.617620", "longitude": "-82.320685"}
+	},
+	{
+		"name": "no location place 1",
+		"loc": {}
+	},
+	{
+		"name": "no location place 2"
+	}
+]
