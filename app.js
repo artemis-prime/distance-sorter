@@ -9,9 +9,6 @@ const ashevilleData 	= require('./ashevillePoints.json');
 const westside 			= {latitude: 35.578201, longitude: -82.592935};
 const blackMountain 	= {latitude: 35.619101, longitude: 82.309313};
 
-
-const test = require('./test.js');
-
 	/*
 		returns projects array of projects (with all the properties present)
 		1) *sorted* by distance from the supplied point.
@@ -22,7 +19,6 @@ const test = require('./test.js');
 			distanceKM
 	*/
 
-/*
 logger.log("////////////////////////////////////////////////////////////////")
 logger.log("////////////////////////////////////////////////////////////////")
 logger.newline();
@@ -34,11 +30,4 @@ logger.log("////////////////////////////////////////////////////////////////")
 logger.newline();
 result = sorter.sort(blackMountain, shuffle.shuffle(ashevilleData), 5);
 logger.dump("Closest 5 sorted by distance from black mountain:", result);
-logger.newline();
-*/
-logger.log("////////////////////////////////////////////////////////////////")
-logger.log("////////////////////////////////////////////////////////////////")
-logger.newline();
-let result = sorter.sort(blackMountain, test);
-logger.dump("result", result);
 logger.newline();

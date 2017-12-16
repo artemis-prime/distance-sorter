@@ -81,6 +81,9 @@ function sort(from, objectsArray, n = -1) {
     if (n === -1) {
         n = parallelArrays.usableSet.length
     }
+	else {
+		n = Math.min(n, parallelArrays.usableSet.length);
+	}
     for (let i = 0; i < n; i++) {
         let each = indecesByDistance[i]
         let obj = parallelArrays.usableSet[each.key]

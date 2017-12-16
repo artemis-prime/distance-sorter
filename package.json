@@ -1,6 +1,6 @@
 {
   "name": "@artemis-prime/distance-sorter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sorts an array of objects that have location data by distance from a point.",
   "main": "index.js",
   "scripts": {
